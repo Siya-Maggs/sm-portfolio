@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { 
-  Github, 
-  Linkedin, 
+  GitHub, 
+  LinkedIn, 
   Mail, 
   Phone, 
   MapPin, 
@@ -26,8 +26,8 @@ export default function App() {
     location: "Cape Town, Western Cape",
     phone: "064 901 2026",
     email: "siyamaggs.dev@gmail.com",
-    linkedin: "https://www.linkedin.com/in/siyavuya-magobiana-942641401/",
-    github: "https://github.com/S-Maggs"
+    linkedin: "https://www.linkedin.com/in/siyavuya-magobiana/",
+    github: "https://github.com/Siya-Maggs"
   };
 
   const handleCopyEmail = async () => {
@@ -99,7 +99,7 @@ export default function App() {
               rel="noreferrer"
               className="flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg bg-slate-900 border border-slate-800 hover:border-slate-700 hover:bg-slate-850 transition-all text-slate-300 font-medium"
             >
-              <Linkedin className="w-4 h-4 text-slate-400" />
+              <LinkedIn className="w-4 h-4 text-slate-400" />
               LinkedIn Profile
             </a>
             <a 
@@ -108,7 +108,7 @@ export default function App() {
               rel="noreferrer"
               className="flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg bg-slate-900 border border-slate-800 hover:border-slate-700 hover:bg-slate-850 transition-all text-slate-300 font-medium"
             >
-              <Github className="w-4 h-4 text-slate-400" />
+              <GitHub className="w-4 h-4 text-slate-400" />
               GitHub Portfolio
             </a>
           </div>
