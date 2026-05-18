@@ -180,6 +180,80 @@ export default function App() {
           </div>
         </section>
 
+        {/* Enterprise S.I.A. Framework Block */}
+        <section className="space-y-6">
+          <div className="flex items-center gap-3 border-b border-slate-800/60 pb-4">
+            <div className="h-6 w-1 bg-gradient-to-b from-emerald-500 to-indigo-500 rounded" />
+            <h2 className="text-xl font-bold tracking-tight text-white">
+              Enterprise Deployments & Core Frameworks
+            </h2>
+          </div>
+          
+          <div className="p-6 rounded-2xl bg-slate-900/30 border border-slate-800/80 space-y-6">
+            <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
+              <div className="space-y-1">
+                <div className="flex items-center gap-3">
+                  <div className="h-2 w-2 rounded-full bg-emerald-400 animate-ping" />
+                  <span className="text-xs font-bold uppercase tracking-widest text-emerald-400">Active Orchestration Architecture</span>
+                </div>
+                <h3 className="text-2xl font-extrabold text-white">S.I.A. Framework (Mothership Design Pattern)</h3>
+              </div>
+              <div className="inline-flex items-center gap-1.5 text-xs font-mono font-semibold text-indigo-400 bg-indigo-500/5 border border-indigo-500/10 px-3 py-1 rounded-md">
+                Project Sentinel Target Deployment
+              </div>
+            </div>
+            
+            <p className="text-sm md:text-base text-slate-300 leading-relaxed max-w-4xl">
+              An enterprise-grade, multi-agent RAG tracking pipeline structured around a unified <strong>Mothership Architectural Design</strong>. The framework strictly isolates cognitive artificial intelligence processes from backend state machines, ensuring low-latency communication, deterministic workflow processing, and complete inter-service data tracking.
+            </p>
+
+            {/* Agent Grid Distribution */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
+              {/* Seneca */}
+              <div className="p-5 rounded-xl bg-slate-950 border border-slate-900 space-y-3 hover:border-emerald-500/30 transition-colors">
+                <div className="flex items-center justify-between">
+                  <span className="text-[11px] font-bold font-mono text-emerald-400 uppercase bg-emerald-500/5 px-2 py-0.5 rounded border border-emerald-500/10">Thinker Core</span>
+                  <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider">Python / Flask</span>
+                </div>
+                <h4 className="text-base font-bold text-slate-200">S.I.A. Seneca</h4>
+                <p className="text-xs text-slate-400 leading-relaxed">
+                  Orchestrates advanced LLM tasks, semantic data retrieval, high-density prompt chaining, and asynchronous vector synchronization layers utilizing the Claude API.
+                </p>
+              </div>
+
+              {/* Invictus */}
+              <div className="p-5 rounded-xl bg-slate-950 border border-slate-900 space-y-3 hover:border-indigo-500/30 transition-colors">
+                <div className="flex items-center justify-between">
+                  <span className="text-[11px] font-bold font-mono text-indigo-400 uppercase bg-indigo-500/5 px-2 py-0.5 rounded border border-indigo-500/10">Executor Core</span>
+                  <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider">Java / Spring Boot</span>
+                </div>
+                <h4 className="text-base font-bold text-slate-200">S.I.A. Invictus</h4>
+                <p className="text-xs text-slate-400 leading-relaxed">
+                  Enforces strict microservice business conditions, constructs deterministic API gate paths, governs inter-service payload validation, and handles database routing.
+                </p>
+              </div>
+
+              {/* Argus */}
+              <div className="p-5 rounded-xl bg-slate-950 border border-slate-900 space-y-3 hover:border-rose-500/30 transition-colors">
+                <div className="flex items-center justify-between">
+                  <span className="text-[11px] font-bold font-mono text-rose-400 uppercase bg-rose-500/5 px-2 py-0.5 rounded border border-rose-500/10">Observer Core</span>
+                  <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider">React / Vite</span>
+                </div>
+                <h4 className="text-base font-bold text-slate-200">S.I.A. Argus</h4>
+                <p className="text-xs text-slate-400 leading-relaxed">
+                  Tracks continuous component execution parameters, displays active middleware message paths, and intercepts telemetry charts with precision sound-signal fidelity.
+                </p>
+              </div>
+            </div>
+
+            <div className="text-xs text-slate-500 pt-2 font-mono flex flex-wrap gap-x-6 gap-y-2">
+              <span>• Database Matrix: Supabase Integration</span>
+              <span>• Elective Standard: Systems Integration Core</span>
+              <span>• Middleware Scope: Secure REST Gateways</span>
+            </div>
+          </div>
+        </section>
+
         {/* Education Timeline */}
         <section className="space-y-8">
           <div className="flex items-center gap-3 border-b border-slate-800/60 pb-4">
@@ -279,21 +353,6 @@ export default function App() {
             <p className="text-slate-300 text-sm leading-relaxed max-w-3xl">
               Managed fast-paced floor logistics, high-volume customer communication, and daily operations management, establishing a strong foundation in collaborative teamwork and execution excellence under pressure.
             </p>
-          </div>
-        </section>
-
-        {/* Active Deployment Frame */}
-        <section className="p-6 rounded-2xl bg-slate-900/30 border border-slate-800/80 space-y-4">
-          <div className="flex items-center gap-3">
-            <div className="h-2 w-2 rounded-full bg-emerald-400 animate-ping" />
-            <span className="text-xs font-bold uppercase tracking-widest text-emerald-400">Active Technical Focus</span>
-          </div>
-          <h3 className="text-xl font-bold text-white">Project Sentinel (Enterprise RAG Pipeline)</h3>
-          <p className="text-sm text-slate-400 max-w-2xl leading-relaxed">
-            I am currently architecting a robust, multi-tier system integration project that connects a React frontend with a Spring Boot API Gateway and a Python/Flask AI microservice. This project utilizes the Claude API for complex workflow automation. 
-          </p>
-          <div className="inline-flex items-center gap-1.5 text-xs font-semibold text-indigo-400">
-            Repository Under Construction • Deploying to Vercel & Supabase
           </div>
         </section>
 
