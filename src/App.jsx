@@ -322,7 +322,6 @@ export default function App() {
       {/* Footer System Stamp */}
       <footer className="max-w-5xl mx-auto px-6 py-12 border-t border-slate-900 text-center text-xs text-slate-500">
         <p>© {new Date().getFullYear()} Siyavuya Magobiana. All rights reserved.</p>
-        <p className="mt-1">Architected in alignment with the Sibiya Standard for technical engineering portfolios.</p>
       </footer>
     </div>
   );
