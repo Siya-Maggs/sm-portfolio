@@ -71,7 +71,7 @@ export default function App() {
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-semibold uppercase tracking-wider">
               NQF Level 6 Accredited
             </div>
-            <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight bg-gradient-to-r from-white via-slate-100 to-slate-400 bg-clip-text text-transparent">
+            <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-white">
               {contactInfo.name}
             </h1>
             <p className="text-lg md:text-xl text-slate-400 font-medium tracking-wide">
@@ -87,7 +87,7 @@ export default function App() {
           <div className="flex flex-col sm:flex-row md:flex-col gap-3 min-w-[200px]">
             <button 
               onClick={handleCopyEmail}
-              className="flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold transition-all duration-200 shadow-lg shadow-emerald-500/15"
+              className="flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold transition-all duration-200 shadow-lg shadow-emerald-500/15 hover:-translate-y-0.5 transform"
             >
               {copied ? <Check className="w-4 h-4" /> : <Mail className="w-4 h-4" />}
               {copied ? "Email Copied!" : "Contact Email"}
@@ -96,7 +96,7 @@ export default function App() {
               href={contactInfo.linkedin} 
               target="_blank" 
               rel="noreferrer"
-              className="flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg bg-slate-900 border border-slate-800 hover:border-slate-700 hover:bg-slate-850 transition-all text-slate-300 font-medium"
+              className="flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg bg-slate-900 border border-slate-800 hover:border-slate-700 hover:bg-slate-850 transition-all text-slate-300 font-medium hover:-translate-y-0.5 transform"
             >
               <Linkedin className="w-4 h-4 text-slate-400" />
               LinkedIn Profile
@@ -105,7 +105,7 @@ export default function App() {
               href={contactInfo.github} 
               target="_blank" 
               rel="noreferrer"
-              className="flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg bg-slate-900 border border-slate-800 hover:border-slate-700 hover:bg-slate-850 transition-all text-slate-300 font-medium"
+              className="flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg bg-slate-900 border border-slate-800 hover:border-slate-700 hover:bg-slate-850 transition-all text-slate-300 font-medium hover:-translate-y-0.5 transform"
             >
               <Github className="w-4 h-4 text-slate-400" />
               GitHub Portfolio
@@ -160,7 +160,7 @@ export default function App() {
             {filteredSkills.map((skill, index) => (
               <div 
                 key={index}
-                className="group flex items-start gap-4 p-4 rounded-xl bg-slate-900/40 border border-slate-900 hover:border-slate-800 hover:bg-slate-900 transition-all duration-300"
+                className="group flex items-start gap-4 p-4 rounded-xl bg-slate-900/40 border border-slate-900 hover:border-slate-800 hover:bg-slate-900 transition-all duration-300 hover:-translate-y-1 transform"
               >
                 <div className="p-2 rounded-lg bg-slate-950 group-hover:scale-110 transition-transform duration-300">
                   {skill.icon}
@@ -208,7 +208,7 @@ export default function App() {
             {/* Agent Grid Distribution */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
               {/* Seneca */}
-              <div className="p-5 rounded-xl bg-slate-950 border border-slate-900 space-y-3 hover:border-emerald-500/30 transition-colors">
+              <div className="p-5 rounded-xl bg-slate-950 border border-slate-900 space-y-3 hover:border-emerald-500/30 transition-all duration-300 hover:-translate-y-1 transform">
                 <div className="flex items-center justify-between">
                   <span className="text-[11px] font-bold font-mono text-emerald-400 uppercase bg-emerald-500/5 px-2 py-0.5 rounded border border-emerald-500/10">Thinker Core</span>
                   <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider">Python / Flask</span>
@@ -220,7 +220,7 @@ export default function App() {
               </div>
 
               {/* Invictus */}
-              <div className="p-5 rounded-xl bg-slate-950 border border-slate-900 space-y-3 hover:border-indigo-500/30 transition-colors">
+              <div className="p-5 rounded-xl bg-slate-950 border border-slate-900 space-y-3 hover:border-indigo-500/30 transition-all duration-300 hover:-translate-y-1 transform">
                 <div className="flex items-center justify-between">
                   <span className="text-[11px] font-bold font-mono text-indigo-400 uppercase bg-indigo-500/5 px-2 py-0.5 rounded border border-indigo-500/10">Executor Core</span>
                   <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider">Java / Spring Boot</span>
@@ -232,7 +232,7 @@ export default function App() {
               </div>
 
               {/* Argus */}
-              <div className="p-5 rounded-xl bg-slate-950 border border-slate-900 space-y-3 hover:border-rose-500/30 transition-colors">
+              <div className="p-5 rounded-xl bg-slate-950 border border-slate-900 space-y-3 hover:border-rose-500/30 transition-all duration-300 hover:-translate-y-1 transform">
                 <div className="flex items-center justify-between">
                   <span className="text-[11px] font-bold font-mono text-rose-400 uppercase bg-rose-500/5 px-2 py-0.5 rounded border border-rose-500/10">Observer Core</span>
                   <span className="text-[10px] text-slate-500 font-bold uppercase tracking-wider">React / Vite</span>
