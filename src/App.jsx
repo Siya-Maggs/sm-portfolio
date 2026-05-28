@@ -75,7 +75,7 @@ export default function App() {
               {contactInfo.name}
             </h1>
             <p className="text-lg md:text-xl text-slate-400 font-medium tracking-wide">
-              AI Automation & Agents Engineer | Middleware Specialist (Java, Python, React) | LLMs & RAG
+              Junior Software Developer (Java, Python, React) | AI Automation & Agents Engineer
             </p>
             <div className="flex flex-wrap gap-4 text-sm text-slate-400 pt-2">
               <span className="flex items-center gap-1.5"><MapPin className="w-4 h-4 text-slate-500" />{contactInfo.location}</span>
